@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+</head>
+<body>
+    <form>
+        <fieldset style="border: 2px solid black; padding: 20px; width: 400px;">
+            <h1 style="text-align: center;">Application Form </h1>
+            <br><br>
+
+            <label><b>Name :</b>
+               <input type="text" placeholder = "enter your name " required />
+            </label><br>
+            <br>
+
+            <label><b>Father's name : </b>
+               <input type="text" placeholder="Enter father's name" required />
+            </label>
+
+            <br><br>
+
+            <label><b>gender : </b></label>
+            <label>Male</label>
+            <input type="radio" name="gender">
+            <label>Female:</label>
+            <input type="radio" name = "gender" />
+
+            <br><br>
+
+            <label><b>profession:</b></label>
+            <label>  Student</label> 
+            <input type = "radio" name = "profession" />
+            <label>Aspriant(JEE/NEET/UPSC)</label>
+            <input type="radio" name="profession" />
+            <label>Employee</label>
+            <input type="radio" name = "profession" />
+
+            <br><br>
+
+            <label><b>Phone. no:</b> 
+               <input type="number" placeholder="Enter phone number"   required />
+            </label>
+
+            <br><br>
+
+            <label><b>Email : </b>
+                <input type = "email" placeholder="email@gmail.com" />
+            </label>
+
+            <br><br>
+    
+            <label><b>Feedback : </b></label>
+            <textarea></textarea>
+
+            <br><br>
+
+            <label>Rating : </label>
+            <input type="range" name = "rating" min = "0" max = "5" step = "0.5" value = "0" required />
+            <button type="reset" style="margin-right: 20px;">Reset</button>
+            <button type="submit">Submit</button>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
